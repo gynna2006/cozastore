@@ -1,0 +1,14 @@
+git config --global user.name "gynna2006"
+git config --global user.email "giovannacolonisio@gmail.com"
+
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.22
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.22
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 6.0.2
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 6.0.22
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 6.0.16
+
+
+
+
+
+
