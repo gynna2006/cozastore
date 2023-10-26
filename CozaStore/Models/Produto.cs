@@ -47,7 +47,14 @@ namespace CozaStore.Models;
         [Display(Name = "Dimensões")]
         [StringLength(30, ErrorMessage = "As Dimensões deve possuir no máximo 30 caracteres")]
         public string Dimensao { get; set; }  
-   
+
+        public ICollection<ListaDesejo> Clientes { get; set; }
+        public ICollection<ProdutoAvaliacao> Avaliacoes { get; set; }
+        public ICollection<ProdutoCategoria> Categorias { get; set; }
+        public ICollection<ProdutoEstoque> Estoques { get; set; }
+        public ICollection<ProdutoTag> Tags { get; set; }
+
+
     }
     
 
