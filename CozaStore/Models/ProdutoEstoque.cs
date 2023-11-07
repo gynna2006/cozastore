@@ -31,12 +31,12 @@ namespace CozaStore.Models;
         [Display(Name = "Preço")]
         [Column(TypeName = "decimal(8,2)")]
         [Required(ErrorMessage = "Informe o Preço de Venda")]        
-        public string Preco { get; set; }
+        public decimal Preco { get; set; }
 
         [Display(Name = "Preço com Desconto")]
         [Column(TypeName = "decimal(8,2)")]
         [Required(ErrorMessage = "Informe o Preço com Desconto")]        
-        public string PrecoDesconto { get; set; }
+        public decimal PrecoDesconto { get; set; }
 
         [Display(Name = "Qtde em Estoque")]
         [Required(ErrorMessage = "Informe a Qtde em Estoque")]        
